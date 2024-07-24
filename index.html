@@ -3,13 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Responsive</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://www.unpkg.com/boxicons@2.1.4/css/boxicons.min.css ' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-    <div class="left_Side "></div>
-    <div class="right_Side "></div>
-    </div>
+
+    <header class="header">
+       <a href="#home" class="logo">Alan
+        <span>Garcia</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home"  id="home">
+        <div class="home-content">
+            <h1>Hi, It is <span>Alan</span></h1>
+            <h3 class="text-animation">I am a <span></span>
+            </h3>
+            <p>I am Alan Axel Garcia Hernandez, a student at the Polytechnic of Santa Rosa and a passionate software programmer. I am deeply interested in technology and enjoy tackling complex problems and creating innovative solutions. My goal is to continually improve my skills and stay up-to-date with the latest advancements in the field. Outside of my studies, I am always eager to take on new challenges and contribute to meaningful projects.</p>
+            
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="image.jpg" alt="">
+            </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-objetos">
+            
+            <div class="timeline-objeto">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-fecha">2017</div>
+                    <div class="timeline-contenido">
+                        <h3>Elementary School</h3>
+                        <p>
+                            I studied in Nicolas Bravo San Luis de la Paz,Gto                       </p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-items">
+                <div class="timeline-objeto">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-fecha">2022</div>
+                        <div class="timeline-contenido">
+                            <h3>Middle School</h3>
+                            <p>I studied Programing at Vanguardia San Luis de la Paz for 3 years
+                            </p>
+                        </div>
+                    
+                </div>
+                <div class="timeline-items">
+            
+                    <div class="timeline-objeto">
+                        <div class="timeline-dot"></div>
+                            <div class="timeline-fecha">2023</div>
+                            <div class="timeline-contenido">
+                                <h3>Highschool</h3>
+                                <p>I studied Programming at CECYTE Guanajuato.    
+                                </p>
+                            </div>
+                        
+                    </div>
+                    <div class="timeline-items">
+            
+                        <div class="timeline-objeto">
+                            <div class="timeline-dot"></div>
+                                <div class="timeline-fecha">2024</div>
+                                <div class="timeline-contenido">
+                                    <h3>University</h3>
+                                    <p>
+I study Software Ingineering at the Politecnica de Santa Rosa Jauregui and I am currently in mi 5th term                                    </p>
+                                </div>
+                            
+                        </div>
+        </div>
+    </section>
+
+    <section class="servicios" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-contenedor">
+            <div class="service-caja">
+                <div class="services-informacion">
+                    <h4>Student Politecnica</h4>
+                    <p>
+I am a student from Politecnica de Santa Rosa                  </p>
+                </div>
+            </div>
+
+            <div class="service-caja">
+                <div class="services-informacion">
+                    <h4>Pasante</h4>
+                    <p>
+                        Im a "Pasante" in a Private Company with my Uncle.                 </p>
+                </div>
+            </div>
+
+            <div class="service-caja">
+                <div class="services-informacion">
+                    <h4>Backend Jr</h4>
+                    <p>
+Im currently gaining hands-on experience in backend development at private company, where Im honing my skills in server-side programming and data management. Im excited to be working non real-world projects and collaborating with the team to design and implement efficient and scable solutions                    </p>
+                </div>
+            </div>
+
+            <div class="service-caja">
+                <div class="services-informacion">
+                    <h4>None</h4>
+                    <p>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">Testimonials</h2>
+
+            <div class="wrapper">  
+                <div class="testimonials-item">
+                    <img src="1.jpeg" alt="">
+                    <h2>Marilyn</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>
+                        Alan Axel Garcia Hernandez has been an exceptional addition to our team as a Junior Programmer. His dedication to learning and his ability to quickly adapt to new technologies have been impressive. Alan consistently delivered high-quality work and demonstrated strong problem-solving skills. He is a valuable team member who always strives for excellence
+                    </p>
+                 </div>
+
+                 <div class="testimonials-item">
+                    <img src="2.jpg" alt="">
+                    <h2>Jose Luis</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+
+                    </div>
+                    <p>
+                        Alan Axel Garcia Hernandez has proven to be a highly capable Junior Programmer during his time with us. His technical proficiency and commitment to learning have greatly benefited our projects. Alan's positive attitude and strong work ethic make him a pleasure to work with. I am confident that he will continue to excel in his career and make substantial contributions to any team he joins.                    </p>
+                 </div>
+
+                 <div class="testimonials-item">
+                    <img src="4.jpg" alt="">
+                    <h2>Alejandra</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, nesciunt excepturi cumque quia sit eaque modi, voluptatibus vitae similique, veniam deserunt eveniet ipsam dignissimos dolorem eum doloremque possimus voluptatum. Voluptate.
+
+                    </p>
+                 </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Services</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+            <li>
+                <a href="#">Testimonials</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Alan Garcia | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
