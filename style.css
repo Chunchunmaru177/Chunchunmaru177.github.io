@@ -564,6 +564,46 @@ transition: 0.4s ease-in-out;
     font-size: 16px;
     color: white;
 }
+.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-items: center; 
+    align-items: center; 
+}
+
+.skills .box h4 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 24px; 
+    letter-spacing: 2px; 
+    text-align: right; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.skills .box .percent {
+    position: relative;
+    width: 50%;
+    height: 10px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
 @media(max-width:1285px)
 {
 html{
